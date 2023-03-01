@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Split bill when you are sharing payments with many people">
+    <meta name="keywords" content="split bill, split payment, agihan bayar, bayar asing">
+    <title>Split Bill</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="language">
+      <p><span class="english lang-active">Change to English</span></p>
+      <p><span class="malay">Tukar ke Bahasa Melayu</span></p>
+    </div>
+
+    <div class="wrapper">
+      <div class="instruction">
+        <p><strong>Instruction:</strong><br>
+          1. Enter name and amount.<br>
+          2. Press "+ Add Name" if you want to add more people.<br>
+          3. Enter service tax and service charge percent if any.<br>
+          4. Press CALCULATE button to calculate each person's bill including service tax & charge.
+        </p>
+      </div>
+
+      <h1 class="title">Split Bill</h1>
+
+      <div class="name-list">
+        <div class="people-name">
+          <input type="text" class="input-name" placeholder="Name">
+          <input type="text" class="input-total" placeholder="RM">
+        </div>
+        <div class="people-name">
+          <input type="text" class="input-name" placeholder="Name">
+          <input type="text" class="input-total" placeholder="RM">
+        </div>
+      </div>
+
+      <p style="margin-bottom: 40px;"><span class="add-people-link">+ Add name</span></p>
+
+      <div class="tax-charge">
+        <div class="service-tax">
+          <p>Service Tax (if any):</p>&ensp;
+          <input type="text" class="inc-service-tax" placeholder="%">
+        </div>        
+        <div class="service-charge">
+          <p>Service Charge (if any):</p>&ensp;
+          <input type="text" placeholder="%">
+        </div>
+      </div>
+
+      <button class="btn">CALCULATE</button>
+
+      <div class="calculate-div">
+        <h4 class="table-title">INDIVIDUAL CALCULATION INCLUDING SERVICE TAX & CHARGE</h4>
+
+        <div class="create-table"></div>
+      </div>
+    </div>
+	<p style="font-size:12px; color: #ffdb99; margin-top:10px">Made by Mey Adam</p>
+  </div>
+
+
+  <script src="language.min.js"></script>
+  <script src="main.min.js"></script>
+
+</body>
+
+</html>
