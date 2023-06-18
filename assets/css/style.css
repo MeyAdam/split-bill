@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #996633;
+}
+
+body {
+  background-color: #f2e6d9;
+}
+
+.btn-language {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-language:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
