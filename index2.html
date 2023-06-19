@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,18 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  
+
   <div class="container">
     <div class="language d-flex justify-content-end">
       <button type="button" class="btn btn-language">Change to English</button>
       <button type="button" class="btn btn-language">Tukar ke Bahasa Melayu</button>
     </div>
 
-    <div class="calculator-container bg-white p-4">
+    <div class="calculator-container bg-white p-4 p-md-5 rounded">
       <div class="instruction">
-        <span>Instruction:</span>
+        <strong>Instructions:</strong>
         <ol>
           <li>Choose dine in or food delivery calculator.</li>
           <li>Enter name and amount.</li>
@@ -28,10 +30,20 @@
           <li>Press CALCULATE button to calculate each person's bill including tax & charge.</li>
         </ol>
       </div>
+
+      <div class="grid title-btns">
+        <h1 class="fs-2 text-center">Split Bill</h1>
+        <div>
+          <button class="btn">DINE IN</button>
+          <button class="btn">DELIVERY</button>
+        </div>
+      </div>
     </div>
-    
+
+
   </div>
-  
+
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

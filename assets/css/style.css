@@ -7,7 +7,6 @@ body {
 }
 
 .btn-language {
-  border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
 
@@ -15,4 +14,19 @@ body {
   color: #fff;
   background-color: var(--primary-color);
   border-color: var(--primary-color);
+}
+
+.calculator-container h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.title-btns .btn {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.title-btns .btn:hover {
+  color: #fff;
+  background-color: var(--primary-color);
 }
